@@ -14,7 +14,6 @@ html{
 
 .navbar-nav{
 margin-left:300px;   
-    
 }
 
 
@@ -25,6 +24,10 @@ body{
     text-align:center;
     margin: 0;
     padding: 0;
+    background: rgb(63,94,251);
+background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,0.36738445378151263) 100%);
+    
+     
     
 }
 
@@ -87,6 +90,12 @@ h3{color:rgb(7, 6, 6);
     font-family: 'Vollkorn', serif;
 
 
+}
+
+.astros {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 p{
@@ -284,6 +293,7 @@ button{
     border: solid 1px;
     height: 7px;
     margin-top: 30px;
+    
 }
 .barracompletando{
     border: solid 1px;
@@ -291,7 +301,8 @@ button{
     width: 50%;
     background-color: red; 
     animation:meditacion 5s infinite;
-
+    display: flex;
+    justify-content: center;
 }
 
 @keyframes meditacion {
@@ -339,12 +350,29 @@ button{
     }
 #cartas{
     display: grid;
-    grid-template-columns: 30% 60%;
-    justify-content: flex-start;
+    grid-template-columns: 20% 50%;
+    justify-content: center;
     row-gap: 3rem;
     padding-left: 6rem;
     
 }
 
+.grid-area {
+    display: grid;
+    grid-template-areas: "meditar1 barraprogreso" ;
+    grid-template-columns: 50% 50%;
+    padding: 2rem;
+}
 
+.grid-area img {
+    width: 50rem;
+    height: 30rem;
+    padding: 2rem;
+    
+}
+
+
+.meditar1 {
+    grid-area: "meditar1";
+}
 
