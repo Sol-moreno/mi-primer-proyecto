@@ -376,3 +376,14 @@ button{
     grid-area: "meditar1";
 }
 
+.carrusel{
+    max-width: 600px;
+    height: auto;
+}
+#carruselid{
+    display: flex;
+    justify-content: center;
+    margin-left: -10rem;
+    margin-top: 3rem;
+}
+
