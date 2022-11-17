@@ -261,7 +261,11 @@ margin: 2rem;
    .carta__astral{
     width: 20rem;
     margin-top: 1rem;
+    
 }
+
+    
+
 
 .imagencolibri{
     width: 100px;
@@ -309,7 +313,7 @@ button{
 }
 
 
-.barraprogreso{
+.barraprogreso,.barraprogreso1{
     width: 100%;
     border: solid 1px;
     height: 7px;
@@ -333,8 +337,9 @@ button{
     100%{
         width: 50%;
     }
- 
 }
+
+ 
 
 
 
