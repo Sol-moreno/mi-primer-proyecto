@@ -403,17 +403,40 @@ button{
 }
 
 
-.grid-area {
+#grid-meditar{
     display: grid;
-    grid-template-areas: "meditar1 barraprogreso" ;
-    grid-template-columns: 50% 50%;
-    padding: 2rem;
+    row-gap: 4rem;
+    grid-template-rows:auto;
+    padding: 10rem;
 }
 
-.grid-area img {
+#grid-meditar img {
     width: 40rem;
     height: 30rem;
     padding: 2rem;
+    row-gap: 4rem;
+    
+}
+
+.posiciones{
+    font-size:3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 2rem;
+    
+    
+    
+}
+
+.meditacionescortas{
+    font-size:3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20rem;
+    padding: 2rem;
+    background-color: #f14865;
+    
+}
+.meditaciones-parrafos {
+    margin-top: 5rem;
     
 }
 
@@ -442,6 +465,7 @@ button{
 
 
 footer{
+    padding: 2rem;
     margin-top: 10rem;
 }
 
