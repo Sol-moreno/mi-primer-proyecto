@@ -241,9 +241,17 @@ margin: 2rem;
 
 .cartaelsol{
     margin-top: 6rem;
-    width: 50rem;
+    max-width: 100%; 
     margin: 0 auto;
+    width: 30rem;
+    height: 40rem;
+    transition: all .9s;
    } 
+
+   .cartaelsol:hover{
+    transform:scale(1.4);
+    
+   }
 
    .logo-wpp{
     width: 30px;
@@ -291,8 +299,11 @@ button{
 }
 .servicios-ofrecidos{margin-top: 15rem;
     text-align: center;
-    padding: 5rem;
+    padding: 4rem;
+     
+   
 }
+
 .barraprogreso{
     width: 100%;
     border: solid 1px;
@@ -304,7 +315,7 @@ button{
     border: solid 1px;
     height: 6px;
     width: 50%;
-    background-color: red; 
+    background-color:yellow; 
     animation:meditacion 5s infinite;
     display: flex;
     justify-content: center;
@@ -339,6 +350,15 @@ button{
        
 }
 
+.tarottitulo{
+    margin-bottom: 8rem;
+    margin-top: 15rem;
+    font-size: medium;
+    margin-left: 20rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f19aa8;
+}
+
 
 /* seccion grid */ 
 
@@ -371,7 +391,7 @@ button{
 }
 
 .grid-area img {
-    width: 50rem;
+    width: 40rem;
     height: 30rem;
     padding: 2rem;
     
@@ -405,13 +425,17 @@ button{
     
 }
 
-@media screen and(max-width: 1050px) {
-    #consejos-meditacion{flex-direction:column;}
+@media screen and
+    (max-width: 1020){
+ 
+    #consejos-meditacion{
+        flex-direction: column-reverse;
+    }
 
 }
 @media screen and(max-width:1050px){
-    .sobremi{display: grid;
-    grid-template-rows:1fr 1fr; }
+    .sobremi{flex-direction:row;
+     }
 }
 
     
