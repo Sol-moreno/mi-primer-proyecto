@@ -28,6 +28,7 @@ body{
     text-align:center;
     margin: 0;
     padding: 0;
+    background-color:antiquewhite;
 
 
     
@@ -90,7 +91,6 @@ h3{color:rgb(7, 6, 6);
     font-size: 3rem;
     text-align: center;
     margin-top: 4rem;
-    width: 100rem;
     font-family: 'Vollkorn', serif;
 
 
@@ -178,9 +178,10 @@ margin: 2rem;
     text-align: center;
     line-height: 5;
     border:solid pink;
-    margin: 170px;
+    margin: 170px;;
     background-color: #f7eeef;
     margin-right: 170px;
+    
     
     }
     
@@ -297,12 +298,16 @@ button{
     padding: 1.5rem;
     background-color: #f14865;
 }
-.servicios-ofrecidos{margin-top: 15rem;
+.servicios-ofrecidos{
+    margin-bottom: 3rem;
     text-align: center;
     padding: 4rem;
+    background-color: #f14865;
+    padding: 1rem;
      
    
 }
+
 
 .barraprogreso{
     width: 100%;
@@ -328,20 +333,32 @@ button{
     100%{
         width: 50%;
     }
-    
+ 
 }
+
+
 
  #descripcion{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     border:solid pink;
     background-color: #f7eeef;
     margin: 150px;
-     
+   
     
 }
+
+.titulosoy{
+    padding: 1.0rem;
+    background-color: #f14865;
+    
+    
+
+    
+}
+
 
 .sobremi{
     width: 65%;
@@ -351,12 +368,13 @@ button{
 }
 
 .tarottitulo{
-    margin-bottom: 8rem;
-    margin-top: 15rem;
     font-size: medium;
-    margin-left: 20rem;
+    margin-top: 8rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #f19aa8;
+    background-color: #f14865;
+    padding: 1.5rem;
+    
+    
 }
 
 
@@ -366,7 +384,7 @@ button{
         display:grid;
         grid-template-columns: auto auto;
         justify-content: space-evenly;
-        row-gap: 2rem;
+        row-gap: 6rem;
         
     }
 
@@ -380,8 +398,10 @@ button{
     justify-content: center;
     row-gap: 3rem;
     padding-left: 6rem;
+    margin-top: 6rem;
     
 }
+
 
 .grid-area {
     display: grid;
@@ -403,12 +423,7 @@ button{
     grid-area: "meditar1";
 }
 
-
-
-    
-    
-    
-
+/* carrusel */
 
 #grid{
     display: grid;
@@ -425,31 +440,105 @@ button{
     
 }
 
-@media screen and
-    (max-width: 1020){
- 
-    #consejos-meditacion{
-        flex-direction: column-reverse;
-    }
-
-}
-@media screen and(max-width:1050px){
-    .sobremi{flex-direction:row;
-     }
-}
-
-    
-
-    
-
-    
-
 
 footer{
-    margin-top: 5rem;
+    margin-top: 10rem;
 }
 
 
+
+@media screen and (max-width: 1050px) {
+
+    #consejos-meditacion, .tips, .elevalavibracion, .vibracion{
+        display: flex;
+        flex-direction: column;
+    }
+
+   #consejos-meditacion{
+       width: 80%;
+       margin: 0 auto;
+          
+   }
+
+  
+
+   .tips, .elevalavibracion, .vibracion{
+       
+        width:90%;
+        padding: 0px;
+
+   }
+
+    #descripcion,.soy, .sobremi, .solfoto{
+          
+        flex-direction: column;
+        
+        
+    }
+
+    #descripcion{
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+
+    .soy{
+        width:95%;
+    }
+    .sobremi, .solfoto{
+        padding: 0px;
+        margin-top: 2rem;
+        
+    }
+
+    #cartas{
+        display: flex;
+        flex-direction: column;
+        margin: left 0;;
+    
+        }
+
+        #cartas p {
+            padding-right:5rem;
+            text-align: center;
+        }
+        .cartaelsol{
+            width: 20rem;
+            height: 30rem;
+
+        }
+
+        .mapa__salta{
+            position: relative;
+            max-width: 100%;
+            height: 300px;
+            width: 300px;
+        }
+
+        .navbar-nav{
+            margin: auto;
+ 
+        }
+
+        body{
+            background-image: linear-gradient(to left, pink,rgb(205, 245, 245))
+        }
+        
+        footer{
+               margin-top: 1rem;
+        }
+        #cardservicios{
+            row-gap: 2rem;
+        }
+
+        }
+     
+      
+            
+    
+
+    
+
     
 
 
@@ -457,8 +546,13 @@ footer{
 
 
     
+
+
+
+
+
+    
     
 
-/* desktop first */
 
 
