@@ -1,0 +1,104 @@
+*{ 
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+
+}
+
+html{
+    
+    font-size: 62.5%;
+
+}
+
+img{
+    max-width: 100%;
+}
+
+.imagencolibri{
+    max-width: 100%;
+    width:10rem;
+    height: 10rem;
+    
+}
+
+.navbar-nav{
+margin-left:300px;   
+}
+
+
+body{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    text-align:center;
+    margin: 0;
+    padding: 0;
+    background-color:antiquewhite;
+   
+    
+}
+
+p{
+    font-weight: bolder;
+    font-style: normal;
+    font-size: medium;
+    /*margin-top: 2rem;*/
+    margin: 2rem;
+    
+    
+    }
+
+.colornav{
+    background-color: #fc798f;
+    font-size:2rem;  
+
+}
+
+.titulo__rosaholistica{
+    text-align: center;
+}
+
+
+h1{
+    color:rgb(7, 6, 6);
+    font-size:40px;
+    margin-top:1rem;
+    margin-right: 2rem;
+   
+}
+
+h2{
+    color:rgb(7, 6, 6);
+    font-size: 4rem;
+    margin-top: 10rem;
+    font-family: 'Vollkorn', serif;
+    
+}
+
+h3{color:rgb(7, 6, 6);
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 4rem;
+    font-family: 'Vollkorn', serif;}
+
+
+           
+  footer{
+        padding: 2rem;
+        margin-top: 10rem;
+    }
+      
+    .botones-generales{
+        border-color:black;
+        padding: 1.5rem;
+        background-color: #f14865;
+        border-radius: 8px;
+        margin-top: 2rem;
+        cursor: pointer;
+        
+    }
+        
+
+

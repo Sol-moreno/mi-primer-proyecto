@@ -1,0 +1,62 @@
+#descripcion{
+    @include flex-column;
+    flex-direction: row;
+    border:solid pink;
+    background-color: #f7eeef;
+    margin: 150px;
+   
+    
+}
+
+#cardservicios {
+    display:grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    row-gap: 6rem;
+    
+}
+#cartas{
+    display: grid;
+    grid-template-columns: 20% 50%;
+    justify-content: center;
+    row-gap: 3rem;
+    padding-left: 6rem;
+    margin-top: 6rem;
+    
+}
+
+.astros {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+#grid-meditar{
+    display: grid;
+    row-gap: 4rem;
+    grid-template-rows:auto;
+    padding: 3rem;
+}
+
+#grid-meditar img {
+    width: 40rem;
+    height: 30rem;
+    padding: 2rem;
+    row-gap: 4rem;
+    
+}
+.meditar1 {
+    grid-area: "meditar1";
+}
+
+/* carrusel */
+
+#grid{
+    display: grid;
+    grid-template-columns: 60% 30%;
+    justify-content: center;
+    align-items:center;                        
+
+}

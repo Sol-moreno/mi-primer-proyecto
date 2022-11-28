@@ -1,0 +1,28 @@
+.astros {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+fieldset{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+.enviar{
+    @extend .botones-generales;
+    margin-top: 2rem;
+    padding: 1.5rem;
+}
+
+.carta__astral{
+    width: 20rem;
+    margin-top: 1rem;
+    
+}
+
+

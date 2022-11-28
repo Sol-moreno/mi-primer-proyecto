@@ -1,0 +1,134 @@
+@media screen and (max-width: 1050px) {
+
+    #consejos-meditacion, .tips, .elevalavibracion, .vibracion{
+        display: flex;
+        flex-direction: column;
+    }
+
+   #consejos-meditacion{
+       width: 60%;
+       margin: 0 auto;
+          
+   }
+
+  
+
+   .tips, .elevalavibracion, .vibracion{
+       
+        width: 80%;
+        padding: 0px;
+
+   }
+
+    #descripcion,.soy, .sobremi, .solfoto{
+          
+        flex-direction: column;
+        
+        
+    }
+
+    #descripcion{
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+
+    .soy{
+        width:95%;
+    }
+    .sobremi, .solfoto{
+        padding: 0px;
+        margin-top: 2rem;
+        
+    }
+
+    #cartas{
+        display: flex;
+        flex-direction: column;
+        margin: left 0;;
+    
+        }
+
+        #cartas p {
+            padding-right:5rem;
+            text-align: center;
+        }
+        .cartaelsol{
+            width: 20rem;
+            height: 30rem;
+
+        }
+
+        .mapa__salta{
+            position: relative;
+            max-width: 100%;
+            height: 300px;
+            width: 300px;
+        }
+
+        .navbar-nav{
+            margin: auto;
+ 
+        }
+
+        body{
+            background-image: linear-gradient(to left, pink,rgb(205, 245, 245))
+        }
+        
+        footer{
+               margin-top: 1rem;
+        }
+        #cardservicios{
+            row-gap: 2rem;
+        }
+
+        }
+     
+
+        @media screen and (max-width:500px) {
+
+            #cardservicios{
+                @include grid-column;}
+                
+
+                .elevalavibracion li,.vibracion li {
+
+                    padding:1rem;
+                    display: inline;
+                    margin-left: 7rem; } 
+            
+                
+                #consejos-meditacion{
+                    width: 75%;
+                    margin: 0 auto;
+                }
+
+     #descripcion,.soy, .sobremi, .solfoto{
+          
+        flex-direction:row;
+        
+        
+    }
+
+    #descripcion{
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+
+    .soy{
+        width:95%;
+    }
+    .sobremi, .solfoto{
+        padding: 0px;
+        margin-top: 2rem;
+        
+    }
+    p{
+        margin: 2rem;
+    }
+
+   
+}
+
+              

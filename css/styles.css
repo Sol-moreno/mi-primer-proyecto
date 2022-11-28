@@ -1,564 +1,440 @@
-*{ 
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-    
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html{
-    
-    font-size: 62.5%;
-
+html {
+  font-size: 62.5%;
 }
 
-img{
-    max-width: 100%;
+img {
+  max-width: 100%;
 }
 
-.navbar-nav{
-margin-left:300px;   
+.imagencolibri {
+  max-width: 100%;
+  width: 10rem;
+  height: 10rem;
 }
 
-
-body{
-
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: small;
-    text-align:center;
-    margin: 0;
-    padding: 0;
-    background-color:antiquewhite;
-
-
-    
-     
-    
+.navbar-nav {
+  margin-left: 300px;
 }
 
-.colornav{
-    background-color: #fc798f;
-    font-size:2rem;  
-
-}
-/* a{text-decoration: none;
-    color:black;
-    background-color:rgb(159, 159, 236);
-    padding: 1rem;  
-    transition:ease-in-out 1s;  */
-
-/* } */
-
-/* a:hover{
-    background-color: #f14865;
-
-} */
-
-
-ul{
-    list-style-type: none;
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: small;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
 }
 
-
-.lista-navegacion li{
-    display:inline;
-    font-size: 1.5rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    margin-left: 2rem;
-    
+p {
+  font-weight: bolder;
+  font-style: normal;
+  font-size: medium;
+  /*margin-top: 2rem;*/
+  margin: 2rem;
 }
 
-
-
-h1{
-    color:black;
-    font-size:40px;
-    margin-top:1rem;
-    margin-right: 2rem;
-   
+.colornav {
+  background-color: #fc798f;
+  font-size: 2rem;
 }
 
-h2{
-    color:rgb(7, 6, 6);
-    font-size: 4rem;
-    margin-top: 10rem;
-    font-family: 'Vollkorn', serif;
-    
+.titulo__rosaholistica {
+  text-align: center;
 }
 
-h3{color:rgb(7, 6, 6);
-    font-size: 3rem;
-    text-align: center;
-    margin-top: 4rem;
-    font-family: 'Vollkorn', serif;
+h1 {
+  color: rgb(7, 6, 6);
+  font-size: 40px;
+  margin-top: 1rem;
+  margin-right: 2rem;
+}
 
+h2 {
+  color: rgb(7, 6, 6);
+  font-size: 4rem;
+  margin-top: 10rem;
+  font-family: "Vollkorn", serif;
+}
 
+h3 {
+  color: rgb(7, 6, 6);
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 4rem;
+  font-family: "Vollkorn", serif;
+}
+
+footer {
+  padding: 2rem;
+  margin-top: 10rem;
+}
+
+.botones-generales, .enviar, .btn-primary {
+  border-color: black;
+  padding: 1.5rem;
+  background-color: #f14865;
+  border-radius: 8px;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+#descripcion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border: solid pink;
+  background-color: #f7eeef;
+  margin: 150px;
+}
+
+#cardservicios {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+  row-gap: 6rem;
+}
+
+#cartas {
+  display: grid;
+  grid-template-columns: 20% 50%;
+  justify-content: center;
+  row-gap: 3rem;
+  padding-left: 6rem;
+  margin-top: 6rem;
 }
 
 .astros {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
-p{
-font-weight: bolder;
-font-style: normal;
-font-size: medium;
-/*margin-top: 2rem;*/
-margin: 2rem;
-
-
-}
-.muchasgracias{
-    margin-top: 1rem;
-
-}
-
-
-
-
-.titulo__rosaholistica{
-    text-align: center;
-}
-
-.fin__piedepagina{
-    background-color:#f14865;
-    background-size: contain; 
-    font-size: large;
-    font-style: normal;
-    margin-top: 9rem;
-    font-weight: bolder;
-    padding: 1.5rem;
-
-}
-.tips__clases{margin-left: auto;
-    
-    background-color: #f19aa8;}
-
-
-
-   
-    .elevalavibracion li{ 
-        font-size: medium;
-        margin-bottom: 8rem;
-        background-color: yellow;
-        text-align: center;
-        padding: 1.5rem;
-        font-style: italic;
-        font-weight: bolder;
-        display: inline;
-        margin-left: 6rem;
-    }
-
-        .vibracion li{
-            font-size: medium;
-            margin-bottom: 8rem;
-            background-color: yellow;
-            text-align: center;
-            padding: 1.5rem;
-            font-style: italic;
-            font-weight: bolder;
-            display: inline;
-            margin-left: 6rem;
-            
-
-        }
-    
-    ol.vibracion{
-        padding-left: 0px;
-    }
-
-    ol.elevalavibracion{
-        padding-left: 0px;
-    }
-
-    #consejos-meditacion{
-    text-align: center;
-    line-height: 5;
-    border:solid pink;
-    margin: 170px;;
-    background-color: #f7eeef;
-    margin-right: 170px;
-    
-    
-    }
-    
-     fieldset{
-        margin-top: 5rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        gap: 10px;
-    
-    }
-
-    .enviar{
-        background-color:purple;
-        margin-top: 2rem;
-        padding: 1.5rem;
-    }
-
-    
-  
-   .ubicacionmapa{
-
-    text-align: center;
-    margin-top: 4rem;
-    
-   }
-  
-   .mapa__salta{
-    margin-top: 4rem;
-    margin: 0 auto;
-
-    
-   }
-   
-   
-.meditaciones-parrafos h2{
-    margin-top: 4rem;
-    text-align: center;
-}
-.videosyoutu{
-    margin-top: 3rem;
-    margin: 0 auto;
-    
-}
-.instruccionesmeditacion{
-    text-align: center;
-}
-
-/* seccion fotos  */
-
-.solfoto{
-    /*margin-left: 57rem;*/
-    width: 35%;
-    margin-bottom: 3rem;
-    padding: 5rem;
-}
-
-.cartaelsol{
-    margin-top: 6rem;
-    max-width: 100%; 
-    margin: 0 auto;
-    width: 30rem;
-    height: 40rem;
-    transition: all .9s;
-   } 
-
-   .cartaelsol:hover{
-    transform:scale(1.4);
-    
-   }
-
-   .logo-wpp{
-    width: 30px;
-   }
-
-   .carta__astral{
-    width: 20rem;
-    margin-top: 1rem;
-    
-}
-
-    
-
-
-.imagencolibri{
-    width: 100px;
-       
-    
-}
-
-.imgtarot{
-    height: 200px;
-    
-    
- 
-}
-.card-tarot{
-    border:solid pink;
-    padding: 1.5rem;
-    margin-top: 5rem;
-    width: 50rem;
-    height: 50rem;
-    margin: 0% auto;
-    text-align: center;
-
-}
-
-.cardTarot{
-    margin: 0px auto;
-}
-.parrafot{
-    text-align: center;
-
-}
-button{
-    margin-top:1rem;
-    padding: 1.5rem;
-    background-color: #f14865;
-}
-.servicios-ofrecidos{
-    margin-bottom: 3rem;
-    text-align: center;
-    padding: 4rem;
-    background-color: #f14865;
-    padding: 1rem;
-     
-   
-}
-
-
-.barraprogreso,.barraprogreso1{
-    width: 100%;
-    border: solid 1px;
-    height: 7px;
-    margin-top: 30px;
-    
-}
-.barracompletando{
-    border: solid 1px;
-    height: 6px;
-    width: 50%;
-    background-color:yellow; 
-    animation:meditacion 5s infinite;
-    display: flex;
-    justify-content: center;
-}
-
-@keyframes meditacion {
-    0%{
-        width: 0;
-    }
-    100%{
-        width: 50%;
-    }
-}
-
- 
-
-
-
- #descripcion{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border:solid pink;
-    background-color: #f7eeef;
-    margin: 150px;
-   
-    
-}
-
-.titulosoy{
-    padding: 1.0rem;
-    background-color: #f14865;
-    
-    
-
-    
-}
-
-
-.sobremi{
-    width: 65%;
-    margin-top: 5rem;
-    padding: 6rem;
-       
-}
-
-.tarottitulo{
-    font-size: medium;
-    margin-top: 8rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #f14865;
-    padding: 1.5rem;
-    
-    
-}
-
-
-/* seccion grid */ 
-
-    #cardservicios {
-        display:grid;
-        grid-template-columns: auto auto;
-        justify-content: space-evenly;
-        row-gap: 6rem;
-        
-    }
-
-    .signos{
-        width: 20rem;
-        height: 35rem;
-    }
-#cartas{
-    display: grid;
-    grid-template-columns: 20% 50%;
-    justify-content: center;
-    row-gap: 3rem;
-    padding-left: 6rem;
-    margin-top: 6rem;
-    
-}
-
-
-#grid-meditar{
-    display: grid;
-    row-gap: 4rem;
-    grid-template-rows:auto;
-    padding: 10rem;
+#grid-meditar {
+  display: grid;
+  row-gap: 4rem;
+  grid-template-rows: auto;
+  padding: 3rem;
 }
 
 #grid-meditar img {
-    width: 40rem;
-    height: 30rem;
-    padding: 2rem;
-    row-gap: 4rem;
-    
+  width: 40rem;
+  height: 30rem;
+  padding: 2rem;
+  row-gap: 4rem;
 }
-
-.posiciones{
-    font-size:3rem;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-bottom: 2rem;
-    
-    
-    
-}
-
-.meditacionescortas{
-    font-size:3rem;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 20rem;
-    padding: 2rem;
-    background-color: #f14865;
-    
-}
-.meditaciones-parrafos {
-    margin-top: 5rem;
-    
-}
-
-
 
 .meditar1 {
-    grid-area: "meditar1";
+  grid-area: "meditar1";
 }
 
 /* carrusel */
-
-#grid{
-    display: grid;
-    grid-template-columns: 60% 30%;
-    justify-content: center;
-    align-items:center;                        
-
+#grid {
+  display: grid;
+  grid-template-columns: 60% 30%;
+  justify-content: center;
+  align-items: center;
 }
 
-.carousel-item{
-    max-width: 100%;
-    height:400px;
-    margin-top: 12rem;
-    
+.solfoto {
+  /*margin-left: 57rem;*/
+  width: 35%;
+  margin-bottom: 3rem;
+  padding: 5rem;
 }
 
-
-footer{
-    padding: 2rem;
-    margin-top: 10rem;
+button {
+  margin-top: 1rem;
+  padding: 1.5rem;
+  background-color: #f14865;
 }
 
+.servicios-ofrecidos {
+  margin-bottom: 3rem;
+  text-align: center;
+  padding: 4rem;
+  background-color: #f14865;
+  padding: 1rem;
+}
 
+.titulosoy {
+  padding: 1rem;
+  background-color: #f14865;
+}
+
+.sobremi {
+  width: 65%;
+  margin-top: 5rem;
+  padding: 6rem;
+}
+
+.carousel-item {
+  max-width: 100%;
+  height: 400px;
+  margin-top: 12rem;
+}
+
+.tips__clases {
+  margin-left: auto;
+  background-color: #f19aa8;
+}
+
+.elevalavibracion li, .vibracion li {
+  font-size: medium;
+  margin-bottom: 8rem;
+  background-color: yellow;
+  text-align: center;
+  padding: 1.5rem;
+  font-style: italic;
+  font-weight: bolder;
+  display: inline;
+  margin-left: 6rem;
+}
+
+.ol.vibracion, .olelevalavibracion {
+  padding-left: 0px;
+}
+
+#consejos-meditacion {
+  text-align: center;
+  line-height: 5;
+  border: solid pink;
+  margin: 170px;
+  background-color: #f7eeef;
+  margin-right: 170px;
+}
+
+.muchasgracias {
+  margin-top: 1rem;
+}
+
+.ubicacionmapa {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.mapa__salta {
+  margin-top: 4rem;
+  margin: 0 auto;
+}
+
+.logo-wpp {
+  width: 30px;
+}
+
+.astros {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+fieldset {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.enviar {
+  margin-top: 2rem;
+  padding: 1.5rem;
+}
+
+.carta__astral {
+  width: 20rem;
+  margin-top: 1rem;
+}
+
+.cartaelsol {
+  margin-top: 6rem;
+  max-width: 100%;
+  margin: 0 auto;
+  width: 30rem;
+  height: 40rem;
+  transition: all 0.9s;
+}
+.cartaelsol:hover {
+  transform: scale(1.4);
+}
+
+.imgtarot {
+  height: 200px;
+}
+
+.tarottitulo {
+  font-size: medium;
+  margin-top: 8rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #f14865;
+  padding: 1.5rem;
+}
+
+.signos {
+  width: 20rem;
+  height: 35rem;
+}
+
+.meditaciones-parrafos h2 {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.videosyoutu {
+  margin-top: 3rem;
+  margin: 0 auto;
+}
+
+.instruccionesmeditacion {
+  text-align: center;
+}
+
+.barraprogreso, .barraprogreso1 {
+  width: 100%;
+  border: solid 1px;
+  height: 7px;
+  margin-top: 30px;
+}
+
+.barracompletando {
+  border: solid 1px;
+  height: 6px;
+  width: 50%;
+  background-color: yellow;
+  animation: meditacion 5s infinite;
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes meditacion {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
+.posiciones {
+  font-size: 3rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 2rem;
+}
+
+.meditacionescortas {
+  font-size: 3rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 20rem;
+  padding: 2rem;
+  background-color: #f14865;
+}
+
+.meditaciones-parrafos {
+  margin-top: 5rem;
+}
+
+.meditar1 {
+  grid-area: "meditar1";
+}
 
 @media screen and (max-width: 1050px) {
+  #consejos-meditacion, .tips, .elevalavibracion, .vibracion {
+    display: flex;
+    flex-direction: column;
+  }
+  #consejos-meditacion {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .tips, .elevalavibracion, .vibracion {
+    width: 80%;
+    padding: 0px;
+  }
+  #descripcion, .soy, .sobremi, .solfoto {
+    flex-direction: column;
+  }
+  #descripcion {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .soy {
+    width: 95%;
+  }
+  .sobremi, .solfoto {
+    padding: 0px;
+    margin-top: 2rem;
+  }
+  #cartas {
+    display: flex;
+    flex-direction: column;
+    margin: left 0;
+  }
+  #cartas p {
+    padding-right: 5rem;
+    text-align: center;
+  }
+  .cartaelsol {
+    width: 20rem;
+    height: 30rem;
+  }
+  .mapa__salta {
+    position: relative;
+    max-width: 100%;
+    height: 300px;
+    width: 300px;
+  }
+  .navbar-nav {
+    margin: auto;
+  }
+  body {
+    background-image: linear-gradient(to left, pink, rgb(205, 245, 245));
+  }
+  footer {
+    margin-top: 1rem;
+  }
+  #cardservicios {
+    row-gap: 2rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  #cardservicios {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-evenly;
+    row-gap: 6rem;
+  }
+  .elevalavibracion li, .vibracion li {
+    padding: 1rem;
+    display: inline;
+    margin-left: 7rem;
+  }
+  #consejos-meditacion {
+    width: 75%;
+    margin: 0 auto;
+  }
+  #descripcion, .soy, .sobremi, .solfoto {
+    flex-direction: row;
+  }
+  #descripcion {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .soy {
+    width: 95%;
+  }
+  .sobremi, .solfoto {
+    padding: 0px;
+    margin-top: 2rem;
+  }
+  p {
+    margin: 2rem;
+  }
+}
 
-    #consejos-meditacion, .tips, .elevalavibracion, .vibracion{
-        display: flex;
-        flex-direction: column;
-    }
-
-   #consejos-meditacion{
-       width: 80%;
-       margin: 0 auto;
-          
-   }
-
-  
-
-   .tips, .elevalavibracion, .vibracion{
-       
-        width:90%;
-        padding: 0px;
-
-   }
-
-    #descripcion,.soy, .sobremi, .solfoto{
-          
-        flex-direction: column;
-        
-        
-    }
-
-    #descripcion{
-        width: 80%;
-        margin: 0 auto;
-        
-    }
-
-    .soy{
-        width:95%;
-    }
-    .sobremi, .solfoto{
-        padding: 0px;
-        margin-top: 2rem;
-        
-    }
-
-    #cartas{
-        display: flex;
-        flex-direction: column;
-        margin: left 0;;
-    
-        }
-
-        #cartas p {
-            padding-right:5rem;
-            text-align: center;
-        }
-        .cartaelsol{
-            width: 20rem;
-            height: 30rem;
-
-        }
-
-        .mapa__salta{
-            position: relative;
-            max-width: 100%;
-            height: 300px;
-            width: 300px;
-        }
-
-        .navbar-nav{
-            margin: auto;
- 
-        }
-
-        body{
-            background-image: linear-gradient(to left, pink,rgb(205, 245, 245))
-        }
-        
-        footer{
-               margin-top: 1rem;
-        }
-        #cardservicios{
-            row-gap: 2rem;
-        }
-
-        }
-     
+/*# sourceMappingURL=styles.css.map */
