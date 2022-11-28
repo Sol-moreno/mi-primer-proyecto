@@ -1,0 +1,30 @@
+$bg-body: antiquewhite;
+$bg-bodyimage:linear-gradient(to left, pink,rgb(205, 245, 245));
+$colorh: #070606;
+$bgcolorh: #f14865;
+$fuente-parrafo:font-size medium;
+$fuente-grande:4rem;
+$fuente-mediana:font-size medium;
+$pantalla-grande:1050px;
+$pantalla-chica:px;
+
+//mixins
+
+@mixin flex-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+@mixin grid-column{
+    display:grid;
+    grid-template-columns:auto;
+    justify-content: space-evenly;
+    row-gap: 6rem;
+    
+}
+
+
+    
+
+
