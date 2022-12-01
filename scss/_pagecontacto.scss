@@ -1,7 +1,7 @@
 .ubicacionmapa{
 
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 10rem;
     
    }
   
@@ -14,4 +14,8 @@
    .logo-wpp{
     width: 30px;
    }
-
+   
+    .botton{
+        @extend.botones-generales;
+    }
+   

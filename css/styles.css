@@ -75,10 +75,19 @@ footer {
   margin-top: 10rem;
 }
 
-.botones-generales, .enviar, .btn-primary {
+.botones-generales, .botton, .btn-primary {
   border-color: black;
   padding: 1.5rem;
   background-color: #f14865;
+  border-radius: 8px;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.botonseccion, .enviar {
+  border-color: black;
+  padding: 1.5rem;
+  background-color: purple;
   border-radius: 8px;
   margin-top: 2rem;
   cursor: pointer;
@@ -216,7 +225,7 @@ button {
 
 .ubicacionmapa {
   text-align: center;
-  margin-top: 4rem;
+  margin-top: 10rem;
 }
 
 .mapa__salta {

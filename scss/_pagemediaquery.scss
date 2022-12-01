@@ -82,10 +82,11 @@
             row-gap: 2rem;
         }
 
-        }
+ }
      
+ 
 
-        @media screen and (max-width:500px) {
+  @media screen and (max-width:500px) {
 
             #cardservicios{
                 @include grid-column;}
@@ -103,32 +104,33 @@
                     margin: 0 auto;
                 }
 
-     #descripcion,.soy, .sobremi, .solfoto{
+           #descripcion,.soy, .sobremi, .solfoto{
           
         flex-direction:row;
         
-        
-    }
+                }
 
-    #descripcion{
-        width: 100%;
-        margin: 0 auto;
+         #descripcion{
+         width: 100%;
+         margin: 0 auto;
         
-    }
+                }
 
-    .soy{
+        .soy{
         width:95%;
-    }
-    .sobremi, .solfoto{
+            }
+
+     .sobremi, .solfoto{
         padding: 0px;
         margin-top: 2rem;
         
-    }
+          }
+
     p{
         margin: 2rem;
     }
 
    
-}
+}  
 
               
