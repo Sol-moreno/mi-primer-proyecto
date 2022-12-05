@@ -23,8 +23,8 @@ img {
 }
 
 body {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: small;
+  font-family: "PT Serif", serif;
+  font-size: medium;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -33,7 +33,7 @@ body {
 
 p {
   font-weight: bolder;
-  font-style: normal;
+  font-family: "PT Serif", serif;
   font-size: medium;
   /*margin-top: 2rem;*/
   margin: 2rem;
@@ -53,6 +53,7 @@ h1 {
   font-size: 40px;
   margin-top: 1rem;
   margin-right: 2rem;
+  font-family: "Vollkorn", serif;
 }
 
 h2 {
@@ -281,7 +282,7 @@ fieldset {
 .tarottitulo {
   font-size: medium;
   margin-top: 8rem;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "PT Serif", serif;
   background-color: #f14865;
   padding: 1.5rem;
 }
@@ -332,13 +333,13 @@ fieldset {
 }
 .posiciones {
   font-size: 3rem;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "PT Serif", serif;
   margin-bottom: 2rem;
 }
 
 .meditacionescortas {
   font-size: 3rem;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "PT Serif", serif;
   margin-top: 20rem;
   padding: 2rem;
   background-color: #f14865;
