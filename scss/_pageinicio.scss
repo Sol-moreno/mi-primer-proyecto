@@ -6,17 +6,8 @@
 }
 
 .binicio{
-    background-image: url(../img/cielo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    @extend .bodydegree;
 }
-
-.carouselslide{
-    margin-bottom: 20rem;
-}
-
-
-
 
 
 button{
@@ -112,6 +103,12 @@ button{
     .btn-primary{
         @extend .botones-generales;
 
+    }
+
+    .card{
+        border-color: black;
+        width: 24rem;
+        
     }
 
    

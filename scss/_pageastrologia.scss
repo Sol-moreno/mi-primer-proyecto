@@ -2,7 +2,16 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    color:aliceblue;
 }
+
+.tastros{
+    color: aliceblue;
+    margin-top: 10rem;
+
+}
+
+
 fieldset{
     margin-top: 5rem;
     display: flex;
@@ -10,8 +19,17 @@ fieldset{
     align-items: center;
     justify-content: space-between;
     gap: 10px;
+    color: aliceblue;
 
 }
+
+.bastrologia{
+    background-image: url(../img/8c7abb873b05c6731c435e5a413dd4a7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+
 
 .enviar{
     @extend .botonseccion;
