@@ -1,9 +1,4 @@
-.ubicacionmapa{
 
-    text-align: center;
-    margin-top: 10rem;
-    
-   }
   
    .mapa__salta{
     margin-top: 4rem;
@@ -21,7 +16,25 @@
     width: 30px;
    }
    
-    .botton{
-        @extend.botones-generales;
+    .enviarc{
+        @extend .botones-generales;
     }
+
+   
+      
+    .formc{
+        @include flex-column;
+        flex-direction: row;
+        border:solid pink;
+        margin: 250px;
+        padding: 8rem;
+        margin-top: 8rem;
+    }
+
+    .fieldsetc{
+        color: black;
+    }
+       
+
+    
    

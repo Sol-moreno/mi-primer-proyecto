@@ -76,7 +76,7 @@ footer {
   margin-top: 10rem;
 }
 
-.botones-generales, .botton, .btn-primary {
+.botones-generales, .enviarc, .btn-primary {
   border-color: black;
   padding: 1.5rem;
   background-color: #f14865;
@@ -156,6 +156,7 @@ footer {
   grid-template-columns: 60% 30%;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10rem;
 }
 
 .solfoto {
@@ -229,9 +230,10 @@ button {
   width: 24rem;
 }
 
-.ubicacionmapa {
-  text-align: center;
-  margin-top: 10rem;
+h5 {
+  font-family: "PT Serif", serif;
+  font-weight: bolder;
+  color: #f14865;
 }
 
 .mapa__salta {
@@ -241,6 +243,21 @@ button {
 
 .logo-wpp {
   width: 30px;
+}
+
+.formc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border: solid pink;
+  margin: 250px;
+  padding: 8rem;
+  margin-top: 8rem;
+}
+
+.fieldsetc {
+  color: black;
 }
 
 .astros {
@@ -379,6 +396,7 @@ fieldset {
   #consejos-meditacion {
     width: 60%;
     margin: 0 auto;
+    margin-top: 10rem;
   }
   .tips, .elevalavibracion, .vibracion {
     width: 80%;
@@ -420,11 +438,20 @@ fieldset {
   .navbar-nav {
     margin: auto;
   }
-  body {
-    background-image: linear-gradient(to left, pink, rgb(205, 245, 245));
+  .bastrologia {
+    background-image: url(../img/8c7abb873b05c6731c435e5a413dd4a7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .binicio {
-    background-image: linear-gradient(to left, pink, rgb(205, 245, 245));
+  .astros {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: aliceblue;
+  }
+  .tastros {
+    color: aliceblue;
+    margin-top: 10rem;
   }
   footer {
     margin-top: 1rem;

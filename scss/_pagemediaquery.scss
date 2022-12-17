@@ -3,11 +3,13 @@
     #consejos-meditacion, .tips, .elevalavibracion, .vibracion{
         display: flex;
         flex-direction: column;
+        
     }
 
    #consejos-meditacion{
        width: 60%;
        margin: 0 auto;
+       margin-top: 10rem;
           
    }
 
@@ -71,13 +73,29 @@
  
         }
 
-        body{
-            background-image: linear-gradient(to left, pink,rgb(205, 245, 245))
-        }
 
         .binicio{
-            background-image: linear-gradient(to left, pink,rgb(205, 245, 245))
+            @extend .bodydegree;
 
+        }
+
+        .bastrologia{
+            background-image: url(../img/8c7abb873b05c6731c435e5a413dd4a7.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+           }
+        
+           .astros {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            color:aliceblue;
+        }
+        
+        .tastros{
+            color: aliceblue;
+            margin-top: 10rem;
+        
         }
         
         footer{
